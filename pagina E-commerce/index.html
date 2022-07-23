@@ -29,7 +29,7 @@
                 <img src="images/logo.png" alt="Redstore" width="125px">
             </div>
             <nav>
-                <ul>
+                <ul id="MenuItems">
                     <li><a href="">Home</a></li>
                     <li><a href="">Products</a></li>
                     <li><a href="">About</a></li>
@@ -39,6 +39,8 @@
             </nav>
             <!-- 4° -->
             <img src="images/cart.png" alt="cartera" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" 
+            onclick="menutoggle()">
             <!-- fin 4° -->
         </div>
         <!-- fin 1°  nav bar-->
@@ -373,6 +375,26 @@
     </div>
 
     <!-- FOOTER FIN -->
+
+
+    <!-- JS FOR TOGGLE MENU INICIO -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+
+
+    <!-- JS FOR TOGGLE MENU FIN -->
 
 </body>
 </html>
