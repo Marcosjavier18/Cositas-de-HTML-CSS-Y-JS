@@ -1,0 +1,6 @@
+primer index.html
+luego style css
+javacript
+4)productos.html
+5)product-details
+6)

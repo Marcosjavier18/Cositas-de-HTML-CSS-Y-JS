@@ -11,76 +11,106 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
  <!-- BOOSTRAP -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
-    <title>Pagina E-Commerce</title>
+    <title>Todos los producto - Cucatto M</title>
 </head>
 <body>
 
+    <!-- HEADER -->
 
-
-<!-- 3° -->
-<div class="header">
-
- 
-    <!-- 2° -->
-    <<div class="container">
+<
+    <div class="container">
         <div class="navbar">
             <div class="logo">
-               <a href="index.html"><img src="images/logo.png" alt="Redstore" width="125px"></a>
+                <img src="images/logo.png" alt="Redstore" width="125px">
             </div>
             <nav>
                 <ul id="MenuItems">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="productos.html">Products</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>
-                    <li><a href="cuenta.html">Account</a></li>
+                    <li><a href="">Account</a></li>
                 </ul>
             </nav>
-           <a href="cart.html"><img src="images/cart.png" alt="cartera" width="30px" height="30px"></a>
+            <img src="images/cart.png" alt="cartera" width="30px" height="30px">
             <img src="images/menu.png" class="menu-icon" 
             onclick="menutoggle()">
-            <!-- fin 4° -->
-        </div>
-        <!-- fin 1°  nav bar-->
-        <div class="row">
-            <div class="col-2">
-                <h1>Estilos Nuevos,<br/> obtenlos aqui!</h1>
-                <p>Aca encontraras consistencia de los productos, y mas cosas particularmente <br> buenos productos</p>
-                <a href="" class="btn">Explore Ahora!&#10132;</a>
-            </div>
-            <div class="col-2">
-                <img src="images/image1.png" alt="">
-            </div>
-        </div>
-    </div>
-        <!-- fin 2° container -->
-</div>
-    <!-- arranca el 4°. Featured categories -->
 
-<div class="categories">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-3">
-                <img src="images/category-1.jpg" alt="">
-            </div>
-            <div class="col-3">
-                <img src="images/category-2.jpg" alt="">
-            </div>
-            <div class="col-3">
-                <img src="images/category-3.jpg" alt="">
-            </div>
+            
         </div>
+    
     </div>
-</div>
-    <!-- fin 4° -->
-
-    <!-- 5° . featured products-->
+    <!-- FIN HEADER -->
+<!-- FEATURED PRODUCTS -->
 <div class="small-container">
-    <h2 class="title">Featured Products</h2>
+
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Shorting</option>
+                <option>Short by Price</option>
+                <option>Short by popularity</option>
+                <option>Short by rating</option>
+                <option>Short by sale </option>
+            </select>
+        </div>
+
+
+
      <div class="row">
         <div class="col-4">
-               <a href="product-detail.html"><img src="images/product-4.jpg" alt=""></a>
-               <a href="product-detail.html"><h4>Red Printed T-Shirt</h4></a>
+                <img src="images/product-4.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            <p>$50.00</p>
+        </div>
+                <div class="col-4">
+                        <img src="images/product-1.jpg" alt="">
+                        <h4>Red Printed T-Shirt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                    <p>$50.00</p>
+                </div>
+            <div class="col-4">
+                    <img src="images/product-2.jpg" alt="">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            <p>$50.00</p>
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star" ></i>
@@ -228,109 +258,15 @@
             <p>$50.00</p>
             </div>
     </div>
-</div>
-    <!-- fin 5° -->
-<!-- Fin 3° header -->
-
-    <div class="offer">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="images/exclusive.png" alt="" class="offer-img">
-                </div>
-                <div class="col-2">
-                    <p>Oferta exclusiva en redstore</p>
-                    <h1>Reloj Brand4</h1>
-                    <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Consequuntur non qui natus, laboriosam sed veniam minus dicta ab eius? Architecto cumque ipsam molestias assumenda
-                         voluptatem maiores eos sunt obcaecati dicta.</small>
-                         <a href="" class="btn">Buy Now &#10149</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--       TESTIMONIAL   inicio    -->
-    <div class="testimonial">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid distinctio nisi qua
-                        e id eaque iure sint deleniti fuga
-                        , voluptatum omnis et non nam quia velit esse recusandae eveniet mollitia earum?</p>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <img src="images/user-1.png" alt="">
-                        <h3>Logan Paul</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid distinctio nisi qua
-                        e id eaque iure sint deleniti fuga
-                        , voluptatum omnis et non nam quia velit esse recusandae eveniet mollitia earum?</p>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <img src="images/user-2.png" alt="">
-                        <h3>Leo Messi</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid distinctio nisi qua
-                        e id eaque iure sint deleniti fuga
-                        , voluptatum omnis et non nam quia velit esse recusandae eveniet mollitia earum?</p>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <img src="images/user-3.png" alt="">
-                        <h3>Pampita</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--       TESTIMONIAL   fin    -->
-
-    <!-- BRANDS INICIO -->
-<div class="brands">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-5">
-                <img src="images/logo-godrej.png">
-            </div>
-            <div class="col-5">
-                <img src="images/logo-coca-cola.png">
-            </div>
-            <div class="col-5">
-                <img src="images/logo-oppo.png">
-            </div>
-            <div class="col-5">
-                <img src="images/logo-philips.png">
-            </div>
-            <div class="col-5">
-                <img src="images/logo-paypal.png    ">
-            </div>
-        </div>
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#10137;</span>
     </div>
 </div>
-
-    <!-- BRANDS FIN -->
-
-
+   
     <!-- FOOTER INICIO -->
     <div class="footer">
          <div class="container">
